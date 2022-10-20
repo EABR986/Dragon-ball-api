@@ -20,7 +20,7 @@ body {
 }
 div.character-card {
   background: #0d73739b;
-  box-shadow: 0 0 8px #e66d529b;
+  box-shadow: 0 0 10px #f9f9f9bf;
   color: #fff;
   text-align: center;
   border-radius: 50px;
@@ -93,4 +93,11 @@ width:75%
   height: 72px;
   margin: 9px 5px;
  
+}
+@media screen and (max-width: 1500px){
+
+  body{
+    background-image: none;
+    background-color: #3b3a3a;
+  }
 }
