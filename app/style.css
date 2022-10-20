@@ -1,0 +1,96 @@
+@font-face {
+  font-family:"Saiyan Sans" ;
+  src: url("./public/fonts/Saiyan-Sans-Right-Oblique.ttf");
+}
+
+body {
+  font-size: 14px;
+  margin: 0;
+  background-image: url("https://res.cloudinary.com/dvedrbvnw/image/upload/v1666273369/dragon-ball%20api/kid-goku-flying-nimbus-thumb_eplf2s.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+.container-app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+div.character-card {
+  background: #0d73739b;
+  box-shadow: 0 0 8px #e66d529b;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  max-width: 11em;
+  padding: 3px 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px 3px;
+}
+
+img.img-character {
+  width: 150px;
+  height: auto;
+  margin-top: -15px;
+  align-items: center;
+}
+
+div.character-card > p{
+width:75%
+}
+
+
+ .container-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+ 
+
+ 
+} 
+
+.btn {
+  background: #c02d32c8;
+  box-shadow: 0 0 10px #f5f0ef;
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+ width: auto;
+  padding: 10px;
+ font-family: Saiyan Sans;
+ font-size: 25px;
+ display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px 3px;
+} 
+.btn:hover{
+  background: #c02d32;
+  color: rgb(255, 251, 0);
+  cursor: pointer; 
+}
+.nav-bar{
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.dragon-balls{
+  width: 73px;
+  height: 72px;
+  margin: 9px 5px;
+  padding-left: 13px;
+}
+.logo{
+  width: 251px;
+  height: 72px;
+  margin: 9px 5px;
+ 
+}
